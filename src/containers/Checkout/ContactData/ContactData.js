@@ -20,7 +20,7 @@ class ContactData extends Component {
                     type: 'text',
                     placeholder: 'Your Name'
                 },
-                value: 'qq',
+                value: '',
                 validation: {
                     required: true
                 },
@@ -33,7 +33,7 @@ class ContactData extends Component {
                     type: 'text',
                     placeholder: 'Street'
                 },
-                value: 'qq',
+                value: '',
                 validation: {
                     required: true
                 },
@@ -46,7 +46,7 @@ class ContactData extends Component {
                     type: 'text',
                     placeholder: 'ZIP Code'
                 },
-                value: '12345',
+                value: '',
                 validation: {
                     required: true,
                     minLength: 5,
@@ -61,7 +61,7 @@ class ContactData extends Component {
                     type: 'text',
                     placeholder: 'Country'
                 },
-                value: 'pk',
+                value: '',
                 validation: {
                     required: true
                 },
